@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form enctype="application/x-www-form-urlencoded">
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" value="Primer nombre que aparezca" name="nombre" id="nombre"/><br/>
+
+        <label for="curso">CURSO:</label>
+        <input type="radio" value="1" name="curso" id="curso"/>1º
+        <input type="radio" value="2" name="curso" id="curso"/>2º<br/>
+
+        <label for="asignatura">ASIGNATURA:</label>
+        <select id="asignatura" name="asignatura">
+            <option value="" selected="selected">...</option>
+            <option value="fol">FOL</option>
+            <option value="lmsgi">LMSGI</option>
+            <option value="prog">PROG</option>
+            <option value="siinf">SIINF</option>
+            <option value="bbdd">BBDD</option>
+            <option value="endes">ENDES</option>
+        </select><br/>
+
+        <label for="repetidor">REPETIDOR:</label>
+        <input name="repetidor" id="repetidor" type="checkbox" value="repetidor"/>Repetidor<br/>
+
+        <input type="submit" value="ENVIAR" name="enviar">
+        <input type="reset" value="BORRAR" name="borrar">
+    </form>
+</body>
+</html>
